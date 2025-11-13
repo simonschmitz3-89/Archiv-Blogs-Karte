@@ -1,0 +1,1721 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ae8f272ddb093a56b8afb2c28f9df542 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ae8f272ddb093a56b8afb2c28f9df542" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ae8f272ddb093a56b8afb2c28f9df542 = L.map(
+                "map_ae8f272ddb093a56b8afb2c28f9df542",
+                {
+                    center: [50.5, 9.5],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f8fa89455289dea5ce3c769d104dd92f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+            var marker_752ffaa146e5c58688d859548de3b532 = L.marker(
+                [48.2082, 16.3738],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_a7c86d4012524e7ac4e63e736507ece2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_214d8edaeadb8785f4da05ba0f499bf5 = $(`<div id="html_214d8edaeadb8785f4da05ba0f499bf5" style="width: 100.0%; height: 100.0%;">366xgrün – Grünes Archiv<br>Wien (Österreich)</div>`)[0];
+            popup_a7c86d4012524e7ac4e63e736507ece2.setContent(html_214d8edaeadb8785f4da05ba0f499bf5);
+        
+
+        marker_752ffaa146e5c58688d859548de3b532.bindPopup(popup_a7c86d4012524e7ac4e63e736507ece2)
+        ;
+
+        
+    
+    
+            var marker_7889db20307aadc371bf7e6cd326f422 = L.marker(
+                [49.7596, 9.5086],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_89144e448bd745c6f4146f385f7657cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1190245706e6ffd714e5d4b058396613 = $(`<div id="html_1190245706e6ffd714e5d4b058396613" style="width: 100.0%; height: 100.0%;">1628 Wertheim<br>Wertheim (Baden-Württemberg)</div>`)[0];
+            popup_89144e448bd745c6f4146f385f7657cf.setContent(html_1190245706e6ffd714e5d4b058396613);
+        
+
+        marker_7889db20307aadc371bf7e6cd326f422.bindPopup(popup_89144e448bd745c6f4146f385f7657cf)
+        ;
+
+        
+    
+    
+            var marker_8ccdd1d16ccae2e02658ccd4a46c4ab0 = L.marker(
+                [49.7913, 9.9534],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_bc11cdffef586cfa1595814fc9854a46 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8931d11d6a5884898d6ae51a38c95dbf = $(`<div id="html_8931d11d6a5884898d6ae51a38c95dbf" style="width: 100.0%; height: 100.0%;">1720 Würzburg<br>Würzburg (Bayern)</div>`)[0];
+            popup_bc11cdffef586cfa1595814fc9854a46.setContent(html_8931d11d6a5884898d6ae51a38c95dbf);
+        
+
+        marker_8ccdd1d16ccae2e02658ccd4a46c4ab0.bindPopup(popup_bc11cdffef586cfa1595814fc9854a46)
+        ;
+
+        
+    
+    
+            var marker_9f37c28188ffcd6d180cce9670a32213 = L.marker(
+                [51.1, 6.8],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_fbeadf61c641cd0a22748ebf09e4d061 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c6cb579f7bf58ed63de6965a60e7ad8 = $(`<div id="html_4c6cb579f7bf58ed63de6965a60e7ad8" style="width: 100.0%; height: 100.0%;">1914–1918: Ein rheinisches Tagebuch<br>Rheinland (NRW/RLP)</div>`)[0];
+            popup_fbeadf61c641cd0a22748ebf09e4d061.setContent(html_4c6cb579f7bf58ed63de6965a60e7ad8);
+        
+
+        marker_9f37c28188ffcd6d180cce9670a32213.bindPopup(popup_fbeadf61c641cd0a22748ebf09e4d061)
+        ;
+
+        
+    
+    
+            var marker_b2452b3b36f1e5454685ff9de1b884b8 = L.marker(
+                [51.1, 6.8],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_c3580dc0eadd4933e502db0550a0eb9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81c30fbb6ea695d7d53ee2b8a851c4a0 = $(`<div id="html_81c30fbb6ea695d7d53ee2b8a851c4a0" style="width: 100.0%; height: 100.0%;">1923 – Alltag in der Krise<br>Rheinland (NRW/RLP)</div>`)[0];
+            popup_c3580dc0eadd4933e502db0550a0eb9d.setContent(html_81c30fbb6ea695d7d53ee2b8a851c4a0);
+        
+
+        marker_b2452b3b36f1e5454685ff9de1b884b8.bindPopup(popup_c3580dc0eadd4933e502db0550a0eb9d)
+        ;
+
+        
+    
+    
+            var marker_f82abd6e28060e176f7bf5dcc57848ff = L.marker(
+                [47.5162, 14.5501],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_4650d41df1bc0ce62ab359de7c806326 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_740b88625fc8935be6de0dead5b112e0 = $(`<div id="html_740b88625fc8935be6de0dead5b112e0" style="width: 100.0%; height: 100.0%;">ABI-Lehre<br>Österreich (Österreich)</div>`)[0];
+            popup_4650d41df1bc0ce62ab359de7c806326.setContent(html_740b88625fc8935be6de0dead5b112e0);
+        
+
+        marker_f82abd6e28060e176f7bf5dcc57848ff.bindPopup(popup_4650d41df1bc0ce62ab359de7c806326)
+        ;
+
+        
+    
+    
+            var marker_a7b1bc27bfe5712698395494634080a9 = L.marker(
+                [50.3569, 7.5889],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_6171ad0224858579b5aa3ce47792e6a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3fc46a731b13f165b06d97ce9fd6909 = $(`<div id="html_a3fc46a731b13f165b06d97ce9fd6909" style="width: 100.0%; height: 100.0%;">Archiv-Trias<br>Koblenz (Rheinland-Pfalz)</div>`)[0];
+            popup_6171ad0224858579b5aa3ce47792e6a6.setContent(html_a3fc46a731b13f165b06d97ce9fd6909);
+        
+
+        marker_a7b1bc27bfe5712698395494634080a9.bindPopup(popup_6171ad0224858579b5aa3ce47792e6a6)
+        ;
+
+        
+    
+    
+            var marker_ca8f6d7e2f9ede321e02184593ac44fb = L.marker(
+                [48.7758, 9.1829],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_ef0501450b8370e088ce672003db4d4c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64c7d960410e14465f9bdc1d41ab2cda = $(`<div id="html_64c7d960410e14465f9bdc1d41ab2cda" style="width: 100.0%; height: 100.0%;">Archiv0711<br>Stuttgart (Baden-Württemberg)</div>`)[0];
+            popup_ef0501450b8370e088ce672003db4d4c.setContent(html_64c7d960410e14465f9bdc1d41ab2cda);
+        
+
+        marker_ca8f6d7e2f9ede321e02184593ac44fb.bindPopup(popup_ef0501450b8370e088ce672003db4d4c)
+        ;
+
+        
+    
+    
+            var marker_38bd9bfd1593a6f2b25a741d5494c6b1 = L.marker(
+                [51.9607, 7.6261],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_82ce177522be558a83d72b164648c2c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f46d641b419ddaade2fbbb1ae0f1fa16 = $(`<div id="html_f46d641b419ddaade2fbbb1ae0f1fa16" style="width: 100.0%; height: 100.0%;">archivamtblog<br>Münster (NRW)</div>`)[0];
+            popup_82ce177522be558a83d72b164648c2c6.setContent(html_f46d641b419ddaade2fbbb1ae0f1fa16);
+        
+
+        marker_38bd9bfd1593a6f2b25a741d5494c6b1.bindPopup(popup_82ce177522be558a83d72b164648c2c6)
+        ;
+
+        
+    
+    
+            var marker_85508aefbe2b0bb80cb00de984e458a8 = L.marker(
+                [49.3173, 8.4412],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_2ebfd1b7fc015f1f5e5edcf8a0268ae1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9534aafd9b6a0cb3da2d33f8db3d7b13 = $(`<div id="html_9534aafd9b6a0cb3da2d33f8db3d7b13" style="width: 100.0%; height: 100.0%;">Archivar – Kamera – Weltkrieg<br>Speyer (Rheinland-Pfalz)</div>`)[0];
+            popup_2ebfd1b7fc015f1f5e5edcf8a0268ae1.setContent(html_9534aafd9b6a0cb3da2d33f8db3d7b13);
+        
+
+        marker_85508aefbe2b0bb80cb00de984e458a8.bindPopup(popup_2ebfd1b7fc015f1f5e5edcf8a0268ae1)
+        ;
+
+        
+    
+    
+            var marker_2b002a304372692be0ead805d0c9ff55 = L.marker(
+                [52.4125, 12.5316],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_2048a92a51d443ff52faf68f3e3b6fd7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59b39e71319f001d02b462a272fe770b = $(`<div id="html_59b39e71319f001d02b462a272fe770b" style="width: 100.0%; height: 100.0%;">Archivblog Brandenburg<br>Brandenburg (Brandenburg)</div>`)[0];
+            popup_2048a92a51d443ff52faf68f3e3b6fd7.setContent(html_59b39e71319f001d02b462a272fe770b);
+        
+
+        marker_2b002a304372692be0ead805d0c9ff55.bindPopup(popup_2048a92a51d443ff52faf68f3e3b6fd7)
+        ;
+
+        
+    
+    
+            var marker_78345d1fc0d6c500306b1dc4bffe11bf = L.marker(
+                [51.9233, 8.87],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_dbcafb638ace5499dafd7144b3d7b7eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ecc2635567fe5e2b780c5156f372476a = $(`<div id="html_ecc2635567fe5e2b780c5156f372476a" style="width: 100.0%; height: 100.0%;">Archivblog Lippe<br>Lippe (NRW)</div>`)[0];
+            popup_dbcafb638ace5499dafd7144b3d7b7eb.setContent(html_ecc2635567fe5e2b780c5156f372476a);
+        
+
+        marker_78345d1fc0d6c500306b1dc4bffe11bf.bindPopup(popup_dbcafb638ace5499dafd7144b3d7b7eb)
+        ;
+
+        
+    
+    
+            var marker_95a075529665a7f176877315a02ca1c5 = L.marker(
+                [53.5511, 9.9937],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_28572cebdc733ff7fbfcfe7db54b2dfc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4264e2cca8cdaaa64b5d57b2edf208e4 = $(`<div id="html_4264e2cca8cdaaa64b5d57b2edf208e4" style="width: 100.0%; height: 100.0%;">Archiv-Blog HIS<br>Hamburg (Hamburg)</div>`)[0];
+            popup_28572cebdc733ff7fbfcfe7db54b2dfc.setContent(html_4264e2cca8cdaaa64b5d57b2edf208e4);
+        
+
+        marker_95a075529665a7f176877315a02ca1c5.bindPopup(popup_28572cebdc733ff7fbfcfe7db54b2dfc)
+        ;
+
+        
+    
+    
+            var marker_2f5da4ea49b8dc0db7e6b133354291f6 = L.marker(
+                [51.227, 6.9755],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_e260b75f58e6e3f5d34623b0f45cebca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59901fd47d717fc1f101eb4915ae3ce2 = $(`<div id="html_59901fd47d717fc1f101eb4915ae3ce2" style="width: 100.0%; height: 100.0%;">Archive im Kreis Mettmann<br>Kreis Mettmann (NRW)</div>`)[0];
+            popup_e260b75f58e6e3f5d34623b0f45cebca.setContent(html_59901fd47d717fc1f101eb4915ae3ce2);
+        
+
+        marker_2f5da4ea49b8dc0db7e6b133354291f6.bindPopup(popup_e260b75f58e6e3f5d34623b0f45cebca)
+        ;
+
+        
+    
+    
+            var marker_b7cddc3eec50fec8343c2acf9ec1f13c = L.marker(
+                [48.7904, 11.4979],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_cffb03efdde6ccb5d4ae0de3464cc46a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0d3fd166f26f73ab116d0d89466ff67 = $(`<div id="html_c0d3fd166f26f73ab116d0d89466ff67" style="width: 100.0%; height: 100.0%;">Archive in Bayern<br>Bayern (Bayern)</div>`)[0];
+            popup_cffb03efdde6ccb5d4ae0de3464cc46a.setContent(html_c0d3fd166f26f73ab116d0d89466ff67);
+        
+
+        marker_b7cddc3eec50fec8343c2acf9ec1f13c.bindPopup(popup_cffb03efdde6ccb5d4ae0de3464cc46a)
+        ;
+
+        
+    
+    
+            var marker_d5ed42fe4c6c0e9c879795b43a0051b8 = L.marker(
+                [51.1657, 10.4515],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_e54c36282fd9e7934f33cecd4eb1a290 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9e99ef5d36bc4919b89f412eea8ccc0 = $(`<div id="html_c9e99ef5d36bc4919b89f412eea8ccc0" style="width: 100.0%; height: 100.0%;">Archive in der Leibniz-Gemeinschaft<br>Deutschlandweit (DE)</div>`)[0];
+            popup_e54c36282fd9e7934f33cecd4eb1a290.setContent(html_c9e99ef5d36bc4919b89f412eea8ccc0);
+        
+
+        marker_d5ed42fe4c6c0e9c879795b43a0051b8.bindPopup(popup_e54c36282fd9e7934f33cecd4eb1a290)
+        ;
+
+        
+    
+    
+            var marker_8a46e7cfd6fd428db954f97548c4854e = L.marker(
+                [47.2692, 11.4041],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_a4bd0cad0cbd58fa6e5a17af52a95b4c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3fdcd245c79e8b37a18a376b415bd008 = $(`<div id="html_3fdcd245c79e8b37a18a376b415bd008" style="width: 100.0%; height: 100.0%;">Archive in Innsbruck<br>Innsbruck (Österreich)</div>`)[0];
+            popup_a4bd0cad0cbd58fa6e5a17af52a95b4c.setContent(html_3fdcd245c79e8b37a18a376b415bd008);
+        
+
+        marker_8a46e7cfd6fd428db954f97548c4854e.bindPopup(popup_a4bd0cad0cbd58fa6e5a17af52a95b4c)
+        ;
+
+        
+    
+    
+            var marker_1c795f0fd1074ddc090d8117fb9cbd47 = L.marker(
+                [48.1351, 11.582],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_f8703ecd98274f569fe0ba7196fac830 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b406b190d38135e53081f019478c8b6 = $(`<div id="html_5b406b190d38135e53081f019478c8b6" style="width: 100.0%; height: 100.0%;">Archive in München<br>München (Bayern)</div>`)[0];
+            popup_f8703ecd98274f569fe0ba7196fac830.setContent(html_5b406b190d38135e53081f019478c8b6);
+        
+
+        marker_1c795f0fd1074ddc090d8117fb9cbd47.bindPopup(popup_f8703ecd98274f569fe0ba7196fac830)
+        ;
+
+        
+    
+    
+            var marker_a417857d05c23404dabef25a1e778e7d = L.marker(
+                [51.1787, 9.4266],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_47f35d40ee397b0180463f975544f639 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a5a4a86e8d892d5e85fee7e4a182cd4 = $(`<div id="html_1a5a4a86e8d892d5e85fee7e4a182cd4" style="width: 100.0%; height: 100.0%;">Archive in Nordhessen<br>Nordhessen (Hessen)</div>`)[0];
+            popup_47f35d40ee397b0180463f975544f639.setContent(html_1a5a4a86e8d892d5e85fee7e4a182cd4);
+        
+
+        marker_a417857d05c23404dabef25a1e778e7d.bindPopup(popup_47f35d40ee397b0180463f975544f639)
+        ;
+
+        
+    
+    
+            var marker_39c597672089b23837fe6de2ba535622 = L.marker(
+                [51.9, 8.8],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_88411556626f9b2a9a755df3342fbd7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e034a6d969f959922c74088ccb599886 = $(`<div id="html_e034a6d969f959922c74088ccb599886" style="width: 100.0%; height: 100.0%;">Archive in OWL<br>OWL (NRW)</div>`)[0];
+            popup_88411556626f9b2a9a755df3342fbd7d.setContent(html_e034a6d969f959922c74088ccb599886);
+        
+
+        marker_39c597672089b23837fe6de2ba535622.bindPopup(popup_88411556626f9b2a9a755df3342fbd7d)
+        ;
+
+        
+    
+    
+            var marker_d7a456497e8d4e6951d0b463f063de10 = L.marker(
+                [49.5, 7.0],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_a145ac84b09a64455a396d5789c52716 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f12838f328af29b8aa1a676d4c899e9 = $(`<div id="html_8f12838f328af29b8aa1a676d4c899e9" style="width: 100.0%; height: 100.0%;">Archive RLP/Saarland<br>RLP/Saarland (RLP/Saarland)</div>`)[0];
+            popup_a145ac84b09a64455a396d5789c52716.setContent(html_8f12838f328af29b8aa1a676d4c899e9);
+        
+
+        marker_d7a456497e8d4e6951d0b463f063de10.bindPopup(popup_a145ac84b09a64455a396d5789c52716)
+        ;
+
+        
+    
+    
+            var marker_a46b0e5b8a55ee5eece056117c6cb350 = L.marker(
+                [52.3906, 13.0645],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_ec5b16ef18fc16010fd9448762494946 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44a8b12a2b8c8f3c5b5e1574ee328569 = $(`<div id="html_44a8b12a2b8c8f3c5b5e1574ee328569" style="width: 100.0%; height: 100.0%;">Archivspiegel des BBWA<br>Potsdam (Brandenburg)</div>`)[0];
+            popup_ec5b16ef18fc16010fd9448762494946.setContent(html_44a8b12a2b8c8f3c5b5e1574ee328569);
+        
+
+        marker_a46b0e5b8a55ee5eece056117c6cb350.bindPopup(popup_ec5b16ef18fc16010fd9448762494946)
+        ;
+
+        
+    
+    
+            var marker_2a35c7de98520c108b0357dfe7632310 = L.marker(
+                [48.0, 7.8],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_9ab61350aadb876081f5dd3dda284aea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6dec2952b484e4b98febbe4f3622985 = $(`<div id="html_a6dec2952b484e4b98febbe4f3622985" style="width: 100.0%; height: 100.0%;">Archivum Rhenanum<br>Oberrhein (DE/FR/CH)</div>`)[0];
+            popup_9ab61350aadb876081f5dd3dda284aea.setContent(html_a6dec2952b484e4b98febbe4f3622985);
+        
+
+        marker_2a35c7de98520c108b0357dfe7632310.bindPopup(popup_9ab61350aadb876081f5dd3dda284aea)
+        ;
+
+        
+    
+    
+            var marker_0a49de7b0e718297417dc3b484e395b7 = L.marker(
+                [50.807, 8.7692],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_cc6ec04fa63e18f7cd088cc231470b2e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_834ca3ab35b378638d64fc51c94a1383 = $(`<div id="html_834ca3ab35b378638d64fc51c94a1383" style="width: 100.0%; height: 100.0%;">Archivwelt – Marburg<br>Marburg (Hessen)</div>`)[0];
+            popup_cc6ec04fa63e18f7cd088cc231470b2e.setContent(html_834ca3ab35b378638d64fc51c94a1383);
+        
+
+        marker_0a49de7b0e718297417dc3b484e395b7.bindPopup(popup_cc6ec04fa63e18f7cd088cc231470b2e)
+        ;
+
+        
+    
+    
+            var marker_e412b345b0e547ab6a36ef8678e2e9ad = L.marker(
+                [52.52, 13.405],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_bdb319df32e2af1f9108ee76067b2858 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6dda08dc1bf567c47ce50e7565e7963 = $(`<div id="html_e6dda08dc1bf567c47ce50e7565e7963" style="width: 100.0%; height: 100.0%;">Berliner Archivarinnen<br>Berlin (Berlin)</div>`)[0];
+            popup_bdb319df32e2af1f9108ee76067b2858.setContent(html_e6dda08dc1bf567c47ce50e7565e7963);
+        
+
+        marker_e412b345b0e547ab6a36ef8678e2e9ad.bindPopup(popup_bdb319df32e2af1f9108ee76067b2858)
+        ;
+
+        
+    
+    
+            var marker_7905de88e04fdb9259f336ea5d3db982 = L.marker(
+                [48.2082, 16.3738],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_9a87ae92e9dcee5d0918252383f2ea99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52512824e604fb7c886fec502fa1c19e = $(`<div id="html_52512824e604fb7c886fec502fa1c19e" style="width: 100.0%; height: 100.0%;">BIÖG<br>Wien (Österreich)</div>`)[0];
+            popup_9a87ae92e9dcee5d0918252383f2ea99.setContent(html_52512824e604fb7c886fec502fa1c19e);
+        
+
+        marker_7905de88e04fdb9259f336ea5d3db982.bindPopup(popup_9a87ae92e9dcee5d0918252383f2ea99)
+        ;
+
+        
+    
+    
+            var marker_b558854ea8dd7a99252809c765e93169 = L.marker(
+                [50.9795, 11.3235],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_f8b450e12c0d157bae9e06bfc8e747c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d7f530d215f606261593cdee6817e42 = $(`<div id="html_0d7f530d215f606261593cdee6817e42" style="width: 100.0%; height: 100.0%;">Klassik Stiftung Weimar<br>Weimar (Thüringen)</div>`)[0];
+            popup_f8b450e12c0d157bae9e06bfc8e747c9.setContent(html_0d7f530d215f606261593cdee6817e42);
+        
+
+        marker_b558854ea8dd7a99252809c765e93169.bindPopup(popup_f8b450e12c0d157bae9e06bfc8e747c9)
+        ;
+
+        
+    
+    
+            var marker_d257f5cbbd9811cf8a0aa018e799eafb = L.marker(
+                [47.8095, 13.055],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_ddbbf2efeea49064782b713dfb7e5d9b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0686b0edc0651ae43fee78bbcfc92b9c = $(`<div id="html_0686b0edc0651ae43fee78bbcfc92b9c" style="width: 100.0%; height: 100.0%;">Archiv Erzdiözese Salzburg<br>Salzburg (Österreich)</div>`)[0];
+            popup_ddbbf2efeea49064782b713dfb7e5d9b.setContent(html_0686b0edc0651ae43fee78bbcfc92b9c);
+        
+
+        marker_d257f5cbbd9811cf8a0aa018e799eafb.bindPopup(popup_ddbbf2efeea49064782b713dfb7e5d9b)
+        ;
+
+        
+    
+    
+            var marker_e6f316d9a58d2c45cde19ad7fd7c3407 = L.marker(
+                [51.2277, 6.7735],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_b4c4d026289fe422c68a91ac76c80004 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3246c8d2664dc96f0222c743c52d9326 = $(`<div id="html_3246c8d2664dc96f0222c743c52d9326" style="width: 100.0%; height: 100.0%;">Archiv EKiR<br>Düsseldorf (NRW)</div>`)[0];
+            popup_b4c4d026289fe422c68a91ac76c80004.setContent(html_3246c8d2664dc96f0222c743c52d9326);
+        
+
+        marker_e6f316d9a58d2c45cde19ad7fd7c3407.bindPopup(popup_b4c4d026289fe422c68a91ac76c80004)
+        ;
+
+        
+    
+    
+            var marker_0c1ef945ec3b837399afbb5e43a4582d = L.marker(
+                [48.2082, 16.3738],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_6c63e055cf3da09b9caa8285df21ac4b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d77efe7ebc270c3c540f0fe7b9d48e2d = $(`<div id="html_d77efe7ebc270c3c540f0fe7b9d48e2d" style="width: 100.0%; height: 100.0%;">Archiv Schottenstift<br>Wien (Österreich)</div>`)[0];
+            popup_6c63e055cf3da09b9caa8285df21ac4b.setContent(html_d77efe7ebc270c3c540f0fe7b9d48e2d);
+        
+
+        marker_0c1ef945ec3b837399afbb5e43a4582d.bindPopup(popup_6c63e055cf3da09b9caa8285df21ac4b)
+        ;
+
+        
+    
+    
+            var marker_d1548fc6b4bfbacd0f247e83a3119d66 = L.marker(
+                [47.999, 7.8421],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_6bf940a98a62965200fe05e43165e236 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b59b55fa3bda22ba1b92a51b8f0b287e = $(`<div id="html_b59b55fa3bda22ba1b92a51b8f0b287e" style="width: 100.0%; height: 100.0%;">Erzbischöfliches Archiv Freiburg<br>Freiburg (Baden-Württemberg)</div>`)[0];
+            popup_6bf940a98a62965200fe05e43165e236.setContent(html_b59b55fa3bda22ba1b92a51b8f0b287e);
+        
+
+        marker_d1548fc6b4bfbacd0f247e83a3119d66.bindPopup(popup_6bf940a98a62965200fe05e43165e236)
+        ;
+
+        
+    
+    
+            var marker_1d51008f7f737159ec1401867ad7eb00 = L.marker(
+                [48.1351, 11.582],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_2b4fd4d3afbe5d19b8c080ec65e54d62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ba66b76661003fc5c21f426b5694390 = $(`<div id="html_8ba66b76661003fc5c21f426b5694390" style="width: 100.0%; height: 100.0%;">FHVR München<br>München (Bayern)</div>`)[0];
+            popup_2b4fd4d3afbe5d19b8c080ec65e54d62.setContent(html_8ba66b76661003fc5c21f426b5694390);
+        
+
+        marker_1d51008f7f737159ec1401867ad7eb00.bindPopup(popup_2b4fd4d3afbe5d19b8c080ec65e54d62)
+        ;
+
+        
+    
+    
+            var marker_9801cb53cc9d96cc373cca708f68f9eb = L.marker(
+                [51.0504, 13.7373],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_ca8bb1557c987164e6d0aa03c88729f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd5b7c39ea7c946d23fd2647e5432f90 = $(`<div id="html_dd5b7c39ea7c946d23fd2647e5432f90" style="width: 100.0%; height: 100.0%;">Gerhard-Richter-Archiv<br>Dresden (Sachsen)</div>`)[0];
+            popup_ca8bb1557c987164e6d0aa03c88729f2.setContent(html_dd5b7c39ea7c946d23fd2647e5432f90);
+        
+
+        marker_9801cb53cc9d96cc373cca708f68f9eb.bindPopup(popup_ca8bb1557c987164e6d0aa03c88729f2)
+        ;
+
+        
+    
+    
+            var marker_411be1aa4ec11e9018f879e13c687cc2 = L.marker(
+                [52.52, 13.405],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_a0ffb90f9570739cc48fbb23c3133336 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c73d157be682cdfc836c3ff8e4e178d = $(`<div id="html_9c73d157be682cdfc836c3ff8e4e178d" style="width: 100.0%; height: 100.0%;">Archiv Ostdeutscher Sparkassenverband<br>Berlin (Berlin)</div>`)[0];
+            popup_a0ffb90f9570739cc48fbb23c3133336.setContent(html_9c73d157be682cdfc836c3ff8e4e178d);
+        
+
+        marker_411be1aa4ec11e9018f879e13c687cc2.bindPopup(popup_a0ffb90f9570739cc48fbb23c3133336)
+        ;
+
+        
+    
+    
+            var marker_c45c3135f04412f34d588af4fc15be57 = L.marker(
+                [48.1351, 11.582],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_f76e8f23ccf2a841a6432eeb2a22b07b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69c8de0a4ddb5c7daaa622338cda8393 = $(`<div id="html_69c8de0a4ddb5c7daaa622338cda8393" style="width: 100.0%; height: 100.0%;">Landeskirchl. Archiv ELKB<br>München (Bayern)</div>`)[0];
+            popup_f76e8f23ccf2a841a6432eeb2a22b07b.setContent(html_69c8de0a4ddb5c7daaa622338cda8393);
+        
+
+        marker_c45c3135f04412f34d588af4fc15be57.bindPopup(popup_f76e8f23ccf2a841a6432eeb2a22b07b)
+        ;
+
+        
+    
+    
+            var marker_406ce9694c28ca6b4f0a85fb566077ab = L.marker(
+                [53.9794, 10.7623],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_bdf10494d22979ec0c78a7bd15e47669 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_40fee9553cfefc681dbedef91684cf19 = $(`<div id="html_40fee9553cfefc681dbedef91684cf19" style="width: 100.0%; height: 100.0%;">Landeskirchl. Archiv Nordkirche<br>Kiel/Schwerin (Schleswig-Holstein/Mecklenburg-Vorpommern)</div>`)[0];
+            popup_bdf10494d22979ec0c78a7bd15e47669.setContent(html_40fee9553cfefc681dbedef91684cf19);
+        
+
+        marker_406ce9694c28ca6b4f0a85fb566077ab.bindPopup(popup_bdf10494d22979ec0c78a7bd15e47669)
+        ;
+
+        
+    
+    
+            var marker_0ccfd9c24f66ca78906ab1d7a4bef2be = L.marker(
+                [48.7758, 9.1829],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_fa2ad431944d7e6a7a1d1d5c7e224e12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78c47732a64d18f8f042a66840417a14 = $(`<div id="html_78c47732a64d18f8f042a66840417a14" style="width: 100.0%; height: 100.0%;">Landeskirchl. Archiv Stuttgart<br>Stuttgart (Baden-Württemberg)</div>`)[0];
+            popup_fa2ad431944d7e6a7a1d1d5c7e224e12.setContent(html_78c47732a64d18f8f042a66840417a14);
+        
+
+        marker_0ccfd9c24f66ca78906ab1d7a4bef2be.bindPopup(popup_fa2ad431944d7e6a7a1d1d5c7e224e12)
+        ;
+
+        
+    
+    
+            var marker_3a4888aac1e496c98bc3d4fe1025f980 = L.marker(
+                [51.3397, 12.3731],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_0eb06acbdeca66aeb286f60b64cfce26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1875e90db3e219bd8fa9f37fe089ad1 = $(`<div id="html_e1875e90db3e219bd8fa9f37fe089ad1" style="width: 100.0%; height: 100.0%;">Louise-Otto-Peters-Archiv<br>Leipzig (Sachsen)</div>`)[0];
+            popup_0eb06acbdeca66aeb286f60b64cfce26.setContent(html_e1875e90db3e219bd8fa9f37fe089ad1);
+        
+
+        marker_3a4888aac1e496c98bc3d4fe1025f980.bindPopup(popup_0eb06acbdeca66aeb286f60b64cfce26)
+        ;
+
+        
+    
+    
+            var marker_5035e21e3d1687765496b83f4175d396 = L.marker(
+                [47.5596, 7.5886],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_c1de9e547c338ef18b7efe65fd6a8ffb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5f59a80e37073b3d4268c15199ebf22 = $(`<div id="html_e5f59a80e37073b3d4268c15199ebf22" style="width: 100.0%; height: 100.0%;">Staatsarchiv Basel-Stadt<br>Basel (Schweiz)</div>`)[0];
+            popup_c1de9e547c338ef18b7efe65fd6a8ffb.setContent(html_e5f59a80e37073b3d4268c15199ebf22);
+        
+
+        marker_5035e21e3d1687765496b83f4175d396.bindPopup(popup_c1de9e547c338ef18b7efe65fd6a8ffb)
+        ;
+
+        
+    
+    
+            var marker_11e5324e64b2bbc7c64cf8c82e4599b4 = L.marker(
+                [49.977, 9.1521],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_fe4f4f8cd633dd94154bac0b89aa773a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6941b153b7b9ea6c227650b1fffc6203 = $(`<div id="html_6941b153b7b9ea6c227650b1fffc6203" style="width: 100.0%; height: 100.0%;">Stadtarchiv Aschaffenburg<br>Aschaffenburg (Bayern)</div>`)[0];
+            popup_fe4f4f8cd633dd94154bac0b89aa773a.setContent(html_6941b153b7b9ea6c227650b1fffc6203);
+        
+
+        marker_11e5324e64b2bbc7c64cf8c82e4599b4.bindPopup(popup_fe4f4f8cd633dd94154bac0b89aa773a)
+        ;
+
+        
+    
+    
+            var marker_842eec4e57a68eda94a9762b5d1e796b = L.marker(
+                [49.8728, 8.6512],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_fddaf7e7e7afcabca0e2059ff46c4e70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9df86aa4b4d34635da964de3cdcdf035 = $(`<div id="html_9df86aa4b4d34635da964de3cdcdf035" style="width: 100.0%; height: 100.0%;">Stadtarchiv Darmstadt<br>Darmstadt (Hessen)</div>`)[0];
+            popup_fddaf7e7e7afcabca0e2059ff46c4e70.setContent(html_9df86aa4b4d34635da964de3cdcdf035);
+        
+
+        marker_842eec4e57a68eda94a9762b5d1e796b.bindPopup(popup_fddaf7e7e7afcabca0e2059ff46c4e70)
+        ;
+
+        
+    
+    
+            var marker_dcb34a53cc2e48c7f1a3c61423d65112 = L.marker(
+                [50.741, 8.2806],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_401cf5cd91bea976ddfce3fcaa539960 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6842f8e5b3e3a9685b08f34ab70911e7 = $(`<div id="html_6842f8e5b3e3a9685b08f34ab70911e7" style="width: 100.0%; height: 100.0%;">Stadtarchiv Dillenburg<br>Dillenburg (Hessen)</div>`)[0];
+            popup_401cf5cd91bea976ddfce3fcaa539960.setContent(html_6842f8e5b3e3a9685b08f34ab70911e7);
+        
+
+        marker_dcb34a53cc2e48c7f1a3c61423d65112.bindPopup(popup_401cf5cd91bea976ddfce3fcaa539960)
+        ;
+
+        
+    
+    
+            var marker_acfca031e398ea0c9aa5ba8f3abcbc73 = L.marker(
+                [48.8267, 9.0675],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_438cda4a15a411d0309527ffd358515b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86a2dbbf24e6840c349930c133b3ae34 = $(`<div id="html_86a2dbbf24e6840c349930c133b3ae34" style="width: 100.0%; height: 100.0%;">Stadtarchiv Ditzingen<br>Ditzingen (Baden-Württemberg)</div>`)[0];
+            popup_438cda4a15a411d0309527ffd358515b.setContent(html_86a2dbbf24e6840c349930c133b3ae34);
+        
+
+        marker_acfca031e398ea0c9aa5ba8f3abcbc73.bindPopup(popup_438cda4a15a411d0309527ffd358515b)
+        ;
+
+        
+    
+    
+            var marker_9971fc47791186a10c74eba7e63d3ee0 = L.marker(
+                [50.3569, 7.5889],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_82e40e5ae8167f13fb17eb5f293dec93 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9ab7e6988375fa376935f2e9100fa6c = $(`<div id="html_b9ab7e6988375fa376935f2e9100fa6c" style="width: 100.0%; height: 100.0%;">Stadtarchiv Koblenz<br>Koblenz (Rheinland-Pfalz)</div>`)[0];
+            popup_82e40e5ae8167f13fb17eb5f293dec93.setContent(html_b9ab7e6988375fa376935f2e9100fa6c);
+        
+
+        marker_9971fc47791186a10c74eba7e63d3ee0.bindPopup(popup_82e40e5ae8167f13fb17eb5f293dec93)
+        ;
+
+        
+    
+    
+            var marker_f8a60de2e8f6b629afbc0384b19b67d4 = L.marker(
+                [48.3069, 14.2858],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_7a34c7205b547ae7d204ddec609d453c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c520eadc770828900c35138f3a27b5a = $(`<div id="html_7c520eadc770828900c35138f3a27b5a" style="width: 100.0%; height: 100.0%;">Stadtarchiv Linz<br>Linz (Österreich)</div>`)[0];
+            popup_7a34c7205b547ae7d204ddec609d453c.setContent(html_7c520eadc770828900c35138f3a27b5a);
+        
+
+        marker_f8a60de2e8f6b629afbc0384b19b67d4.bindPopup(popup_7a34c7205b547ae7d204ddec609d453c)
+        ;
+
+        
+    
+    
+            var marker_d4848e5ae6f0534bd8230c3f884d5a65 = L.marker(
+                [49.8053, 8.6037],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_8da50168ccda2bba7d0d1b6ef4b926db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b4e24e5860b5200481dfb2714ac4db8 = $(`<div id="html_7b4e24e5860b5200481dfb2714ac4db8" style="width: 100.0%; height: 100.0%;">Stadtarchiv Pfungstadt<br>Pfungstadt (Hessen)</div>`)[0];
+            popup_8da50168ccda2bba7d0d1b6ef4b926db.setContent(html_7b4e24e5860b5200481dfb2714ac4db8);
+        
+
+        marker_d4848e5ae6f0534bd8230c3f884d5a65.bindPopup(popup_8da50168ccda2bba7d0d1b6ef4b926db)
+        ;
+
+        
+    
+    
+            var marker_a1dbcb5e42ec739db6b981ec05ceedab = L.marker(
+                [50.1109, 8.6821],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_f6b2ff740a8ce04651f3c72d27efb0ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59d0849d7bd168d390493a6ce36bcebb = $(`<div id="html_59d0849d7bd168d390493a6ce36bcebb" style="width: 100.0%; height: 100.0%;">Universitätsarchiv Frankfurt<br>Frankfurt/Main (Hessen)</div>`)[0];
+            popup_f6b2ff740a8ce04651f3c72d27efb0ae.setContent(html_59d0849d7bd168d390493a6ce36bcebb);
+        
+
+        marker_a1dbcb5e42ec739db6b981ec05ceedab.bindPopup(popup_f6b2ff740a8ce04651f3c72d27efb0ae)
+        ;
+
+        
+    
+    
+            var marker_da3a42e2c085ff3cd86cbeec6f75d781 = L.marker(
+                [51.3397, 12.3731],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_bd5a20cea9519f66a79ad6d58205b1ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f94f2a42b41f19676b60af6239ac0eb3 = $(`<div id="html_f94f2a42b41f19676b60af6239ac0eb3" style="width: 100.0%; height: 100.0%;">Universitätsarchiv Leipzig<br>Leipzig (Sachsen)</div>`)[0];
+            popup_bd5a20cea9519f66a79ad6d58205b1ba.setContent(html_f94f2a42b41f19676b60af6239ac0eb3);
+        
+
+        marker_da3a42e2c085ff3cd86cbeec6f75d781.bindPopup(popup_bd5a20cea9519f66a79ad6d58205b1ba)
+        ;
+
+        
+    
+    
+            var marker_71e50811052ec9b10045bc99ce4f01c5 = L.marker(
+                [51.1657, 10.4515],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_d7c5309335224f057c8b3b1e2b2413ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a4016365f2cbfe49e40a846367834c0 = $(`<div id="html_3a4016365f2cbfe49e40a846367834c0" style="width: 100.0%; height: 100.0%;">Computergenealogie<br>Deutschlandweit (DE)</div>`)[0];
+            popup_d7c5309335224f057c8b3b1e2b2413ae.setContent(html_3a4016365f2cbfe49e40a846367834c0);
+        
+
+        marker_71e50811052ec9b10045bc99ce4f01c5.bindPopup(popup_d7c5309335224f057c8b3b1e2b2413ae)
+        ;
+
+        
+    
+    
+            var marker_b303c2640b6fe0f1793b94137c9d7313 = L.marker(
+                [52.45125, 9.06385],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_cfe17ba6f05ccc347a3c872d2a7415ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4e7445fdf57550a4cf93908bf6d9c4b = $(`<div id="html_e4e7445fdf57550a4cf93908bf6d9c4b" style="width: 100.0%; height: 100.0%;">Celle/Osnabrück Blog<br>Celle/Osnabrück (Niedersachsen)</div>`)[0];
+            popup_cfe17ba6f05ccc347a3c872d2a7415ea.setContent(html_e4e7445fdf57550a4cf93908bf6d9c4b);
+        
+
+        marker_b303c2640b6fe0f1793b94137c9d7313.bindPopup(popup_cfe17ba6f05ccc347a3c872d2a7415ea)
+        ;
+
+        
+    
+    
+            var marker_17eca4f0f12531b027f9d3ee9ddb2ab1 = L.marker(
+                [47.5162, 14.5501],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_ec28c1107fc77f4b5455627e1b89dae4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abf8039c9d8af9ed7e93e927298165ce = $(`<div id="html_abf8039c9d8af9ed7e93e927298165ce" style="width: 100.0%; height: 100.0%;">Patrick Frischmuth Blog<br>Österreich (Österreich)</div>`)[0];
+            popup_ec28c1107fc77f4b5455627e1b89dae4.setContent(html_abf8039c9d8af9ed7e93e927298165ce);
+        
+
+        marker_17eca4f0f12531b027f9d3ee9ddb2ab1.bindPopup(popup_ec28c1107fc77f4b5455627e1b89dae4)
+        ;
+
+        
+    
+    
+            var marker_b0aee266861208d199fede94492fc181 = L.marker(
+                [47.3769, 8.5417],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_5c5a6fa700e4979a66cf4f1c777f1782 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a667016f982cec62f3f1ea43e9dc79d = $(`<div id="html_5a667016f982cec62f3f1ea43e9dc79d" style="width: 100.0%; height: 100.0%;">ETH Crowdsourcing<br>Zürich (Schweiz)</div>`)[0];
+            popup_5c5a6fa700e4979a66cf4f1c777f1782.setContent(html_5a667016f982cec62f3f1ea43e9dc79d);
+        
+
+        marker_b0aee266861208d199fede94492fc181.bindPopup(popup_5c5a6fa700e4979a66cf4f1c777f1782)
+        ;
+
+        
+    
+    
+            var marker_b51898d054d80ddc861947500fa9827e = L.marker(
+                [50.9375, 6.9603],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_0d0af4ce2aa126e0041f2756e30d5e71 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b92e34e00a79d16ed0296b59f5fe4aa = $(`<div id="html_8b92e34e00a79d16ed0296b59f5fe4aa" style="width: 100.0%; height: 100.0%;">Digitales Historisches Archiv Köln<br>Köln (NRW)</div>`)[0];
+            popup_0d0af4ce2aa126e0041f2756e30d5e71.setContent(html_8b92e34e00a79d16ed0296b59f5fe4aa);
+        
+
+        marker_b51898d054d80ddc861947500fa9827e.bindPopup(popup_0d0af4ce2aa126e0041f2756e30d5e71)
+        ;
+
+        
+    
+    
+            var marker_33d4326ce886bffd12147a652e1c40df = L.marker(
+                [48.9387, 9.2579],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_6f8c6ef478bf756f92b8111a92bfa464 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2339eec375298a58a38fba4f3b7aba55 = $(`<div id="html_2339eec375298a58a38fba4f3b7aba55" style="width: 100.0%; height: 100.0%;">DLA Marbach<br>Marbach (Baden-Württemberg)</div>`)[0];
+            popup_6f8c6ef478bf756f92b8111a92bfa464.setContent(html_2339eec375298a58a38fba4f3b7aba55);
+        
+
+        marker_33d4326ce886bffd12147a652e1c40df.bindPopup(popup_6f8c6ef478bf756f92b8111a92bfa464)
+        ;
+
+        
+    
+    
+            var marker_5445ef8051aa3e9833257cb418532559 = L.marker(
+                [52.52, 13.405],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_9387bdd88afbcd1a8ec54a9561d6ddd6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb890332788ff49e5bc02b9cbb0bd489 = $(`<div id="html_eb890332788ff49e5bc02b9cbb0bd489" style="width: 100.0%; height: 100.0%;">Dortmunder FAMIs<br>Berlin (Berlin)</div>`)[0];
+            popup_9387bdd88afbcd1a8ec54a9561d6ddd6.setContent(html_eb890332788ff49e5bc02b9cbb0bd489);
+        
+
+        marker_5445ef8051aa3e9833257cb418532559.bindPopup(popup_9387bdd88afbcd1a8ec54a9561d6ddd6)
+        ;
+
+        
+    
+    
+            var marker_930626d15532717b7f8fed7562b5eec3 = L.marker(
+                [52.3906, 13.0645],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_04c825933110f4b2bb67a79140f64af2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18779895dbfc6dc894d783a07ce4015a = $(`<div id="html_18779895dbfc6dc894d783a07ce4015a" style="width: 100.0%; height: 100.0%;">Fernweiterbildung Potsdam<br>Potsdam (Brandenburg)</div>`)[0];
+            popup_04c825933110f4b2bb67a79140f64af2.setContent(html_18779895dbfc6dc894d783a07ce4015a);
+        
+
+        marker_930626d15532717b7f8fed7562b5eec3.bindPopup(popup_04c825933110f4b2bb67a79140f64af2)
+        ;
+
+        
+    
+    
+            var marker_3e80e54a55f55a9f74002efcf894d6ce = L.marker(
+                [51.6287, 10.2516],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_12f993e97120df8ab5bcf7fe5a36caec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9daac160812aed6b6618fa77b8558d35 = $(`<div id="html_9daac160812aed6b6618fa77b8558d35" style="width: 100.0%; height: 100.0%;">FEShistory<br>Bonn/Berlin (NRW/Berlin)</div>`)[0];
+            popup_12f993e97120df8ab5bcf7fe5a36caec.setContent(html_9daac160812aed6b6618fa77b8558d35);
+        
+
+        marker_3e80e54a55f55a9f74002efcf894d6ce.bindPopup(popup_12f993e97120df8ab5bcf7fe5a36caec)
+        ;
+
+        
+    
+    
+            var marker_081b3fdb073cc1829cd02d3190763b56 = L.marker(
+                [51.43845, 10.49695],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_53a20f311ca1171be6a1c4d11c7c2577 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8907e195df009af45a470d00090a934b = $(`<div id="html_8907e195df009af45a470d00090a934b" style="width: 100.0%; height: 100.0%;">Offene Archive<br>Koblenz/Berlin (RLP/Berlin)</div>`)[0];
+            popup_53a20f311ca1171be6a1c4d11c7c2577.setContent(html_8907e195df009af45a470d00090a934b);
+        
+
+        marker_081b3fdb073cc1829cd02d3190763b56.bindPopup(popup_53a20f311ca1171be6a1c4d11c7c2577)
+        ;
+
+        
+    
+    
+            var marker_361552d630217eb6a10d8e9b5f8cc7c8 = L.marker(
+                [48.7758, 9.1829],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_ef985575d6825abe5f0a3ebc663f12c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_625e356ec98bcee58d976f51460e8643 = $(`<div id="html_625e356ec98bcee58d976f51460e8643" style="width: 100.0%; height: 100.0%;">FDM Landesarchiv BW<br>Stuttgart (Baden-Württemberg)</div>`)[0];
+            popup_ef985575d6825abe5f0a3ebc663f12c4.setContent(html_625e356ec98bcee58d976f51460e8643);
+        
+
+        marker_361552d630217eb6a10d8e9b5f8cc7c8.bindPopup(popup_ef985575d6825abe5f0a3ebc663f12c4)
+        ;
+
+        
+    
+    
+            var marker_7296c7e6948c3e77f1097dfe169806fd = L.marker(
+                [51.1657, 10.4515],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_f04d88a929c441c35cb3c33fd059a386 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06d93523ac610a3b7e6289e6558365ba = $(`<div id="html_06d93523ac610a3b7e6289e6558365ba" style="width: 100.0%; height: 100.0%;">Forum Archive kath. Organisationen<br>DE (DE)</div>`)[0];
+            popup_f04d88a929c441c35cb3c33fd059a386.setContent(html_06d93523ac610a3b7e6289e6558365ba);
+        
+
+        marker_7296c7e6948c3e77f1097dfe169806fd.bindPopup(popup_f04d88a929c441c35cb3c33fd059a386)
+        ;
+
+        
+    
+    
+            var marker_f689803824c5a700cb8d293663d85996 = L.marker(
+                [49.1427, 9.2109],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_2e3d01674d25784e4860add8200e7d2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01aea3d532d72d5609328a76c3050466 = $(`<div id="html_01aea3d532d72d5609328a76c3050466" style="width: 100.0%; height: 100.0%;">Heilbronn historisch<br>Heilbronn (Baden-Württemberg)</div>`)[0];
+            popup_2e3d01674d25784e4860add8200e7d2a.setContent(html_01aea3d532d72d5609328a76c3050466);
+        
+
+        marker_f689803824c5a700cb8d293663d85996.bindPopup(popup_2e3d01674d25784e4860add8200e7d2a)
+        ;
+
+        
+    
+    
+            var marker_c230c5e970216256c5f4047fa66715a5 = L.marker(
+                [52.0302, 8.5325],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_d8a40bf4737338ea473fc3ec85147c5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a47f3c55e892ff6a7ec8d1286712d6ea = $(`<div id="html_a47f3c55e892ff6a7ec8d1286712d6ea" style="width: 100.0%; height: 100.0%;">Historischer Rückklick Bielefeld<br>Bielefeld (NRW)</div>`)[0];
+            popup_d8a40bf4737338ea473fc3ec85147c5d.setContent(html_a47f3c55e892ff6a7ec8d1286712d6ea);
+        
+
+        marker_c230c5e970216256c5f4047fa66715a5.bindPopup(popup_d8a40bf4737338ea473fc3ec85147c5d)
+        ;
+
+        
+    
+    
+            var marker_ccd6a312000ddba42c91ab61622f1b56 = L.marker(
+                [50.7753, 6.0839],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_c3e555e4aa8ae745cf5523cdc9472b6e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b15c82e43d9d39da19d5244ec684dec8 = $(`<div id="html_b15c82e43d9d39da19d5244ec684dec8" style="width: 100.0%; height: 100.0%;">Hochschularchiv Aachen<br>Aachen (NRW)</div>`)[0];
+            popup_c3e555e4aa8ae745cf5523cdc9472b6e.setContent(html_b15c82e43d9d39da19d5244ec684dec8);
+        
+
+        marker_ccd6a312000ddba42c91ab61622f1b56.bindPopup(popup_c3e555e4aa8ae745cf5523cdc9472b6e)
+        ;
+
+        
+    
+    
+            var marker_8a722ea481c776d93bc1eb61525b558f = L.marker(
+                [48.1351, 11.582],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_c489fd0b43b4888a132d8189cb20097b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d48ebe5316a87d05d1100b602c99db49 = $(`<div id="html_d48ebe5316a87d05d1100b602c99db49" style="width: 100.0%; height: 100.0%;">IfZ-Infrastruktur<br>München (Bayern)</div>`)[0];
+            popup_c489fd0b43b4888a132d8189cb20097b.setContent(html_d48ebe5316a87d05d1100b602c99db49);
+        
+
+        marker_8a722ea481c776d93bc1eb61525b558f.bindPopup(popup_c489fd0b43b4888a132d8189cb20097b)
+        ;
+
+        
+    
+    
+            var marker_333e22576451549aa05ba7cccf25af3c = L.marker(
+                [48.9387, 9.2579],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_f4aeff68b369663f238f95408f7e8102 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4fcbaeb20786d088abd8adbc8c9595d = $(`<div id="html_b4fcbaeb20786d088abd8adbc8c9595d" style="width: 100.0%; height: 100.0%;">Literaturarchiv digital<br>Marbach (Baden-Württemberg)</div>`)[0];
+            popup_f4aeff68b369663f238f95408f7e8102.setContent(html_b4fcbaeb20786d088abd8adbc8c9595d);
+        
+
+        marker_333e22576451549aa05ba7cccf25af3c.bindPopup(popup_f4aeff68b369663f238f95408f7e8102)
+        ;
+
+        
+    
+    
+            var marker_e22e05ea9314639aa923441d2914b11d = L.marker(
+                [49.4875, 8.466],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_c5c9952621a2ce6f2931c5f95201b6c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac26f8bd69d32375bdc1b89d7ab4d6e8 = $(`<div id="html_ac26f8bd69d32375bdc1b89d7ab4d6e8" style="width: 100.0%; height: 100.0%;">Marchivum Mannheim<br>Mannheim (Baden-Württemberg)</div>`)[0];
+            popup_c5c9952621a2ce6f2931c5f95201b6c6.setContent(html_ac26f8bd69d32375bdc1b89d7ab4d6e8);
+        
+
+        marker_e22e05ea9314639aa923441d2914b11d.bindPopup(popup_c5c9952621a2ce6f2931c5f95201b6c6)
+        ;
+
+        
+    
+    
+            var marker_58907833ffcf89db58c4623cd80aaac8 = L.marker(
+                [48.1351, 11.582],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_030e2519926a7d88be5453220e8e98b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e227dc996973118614bb14592b1c13d = $(`<div id="html_7e227dc996973118614bb14592b1c13d" style="width: 100.0%; height: 100.0%;">Migration bewegt die Stadt<br>München (Bayern)</div>`)[0];
+            popup_030e2519926a7d88be5453220e8e98b7.setContent(html_7e227dc996973118614bb14592b1c13d);
+        
+
+        marker_58907833ffcf89db58c4623cd80aaac8.bindPopup(popup_030e2519926a7d88be5453220e8e98b7)
+        ;
+
+        
+    
+    
+            var marker_a89df1572f872ed8d5db77376138f051 = L.marker(
+                [48.731, 11.186],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_0b62eeefeb4ce579d7882db32258b012 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3087f2c477754b0f2e417e8c85db0d58 = $(`<div id="html_3087f2c477754b0f2e417e8c85db0d58" style="width: 100.0%; height: 100.0%;">Neuburg und der große Krieg<br>Neuburg an der Donau (Bayern)</div>`)[0];
+            popup_0b62eeefeb4ce579d7882db32258b012.setContent(html_3087f2c477754b0f2e417e8c85db0d58);
+        
+
+        marker_a89df1572f872ed8d5db77376138f051.bindPopup(popup_0b62eeefeb4ce579d7882db32258b012)
+        ;
+
+        
+    
+    
+            var marker_54d568c8bf97b3bd61b718b8804e0126 = L.marker(
+                [51.3397, 12.3731],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_8caa4db6190b33b1a7923cba679b1dff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_daf632a85d1670051d32814a29a866ee = $(`<div id="html_daf632a85d1670051d32814a29a866ee" style="width: 100.0%; height: 100.0%;">Onomastikblog<br>Leipzig (Sachsen)</div>`)[0];
+            popup_8caa4db6190b33b1a7923cba679b1dff.setContent(html_daf632a85d1670051d32814a29a866ee);
+        
+
+        marker_54d568c8bf97b3bd61b718b8804e0126.bindPopup(popup_8caa4db6190b33b1a7923cba679b1dff)
+        ;
+
+        
+    
+    
+            var marker_571aebd4f37c054cad0a2a890017c64d = L.marker(
+                [52.2799, 8.0472],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_e2b5a1fe34f471fe97a17e335933bd58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d4c1ed1d4e8d14456bbea3f4407c092 = $(`<div id="html_3d4c1ed1d4e8d14456bbea3f4407c092" style="width: 100.0%; height: 100.0%;">Osnabrücker Geschichtsblog<br>Osnabrück (Niedersachsen)</div>`)[0];
+            popup_e2b5a1fe34f471fe97a17e335933bd58.setContent(html_3d4c1ed1d4e8d14456bbea3f4407c092);
+        
+
+        marker_571aebd4f37c054cad0a2a890017c64d.bindPopup(popup_e2b5a1fe34f471fe97a17e335933bd58)
+        ;
+
+        
+    
+    
+            var marker_9a8682dd4d22255fe131761353c5f11e = L.marker(
+                [48.841, 10.093],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_e0f06a4b057828413f687457b44f2dee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65a72b7f528d920e61be93306b438292 = $(`<div id="html_65a72b7f528d920e61be93306b438292" style="width: 100.0%; height: 100.0%;">OSTALBum<br>Ostalbkreis (Baden-Württemberg)</div>`)[0];
+            popup_e0f06a4b057828413f687457b44f2dee.setContent(html_65a72b7f528d920e61be93306b438292);
+        
+
+        marker_9a8682dd4d22255fe131761353c5f11e.bindPopup(popup_e0f06a4b057828413f687457b44f2dee)
+        ;
+
+        
+    
+    
+            var marker_212a00a69d90aef631705e7799026c60 = L.marker(
+                [47.8571, 12.1225],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_aab47febef21393ccb851d56fc9a9a84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22f37e177b5f618a20fd84d4506e4ad0 = $(`<div id="html_22f37e177b5f618a20fd84d4506e4ad0" style="width: 100.0%; height: 100.0%;">Rosenheimer Miszellen<br>Rosenheim (Bayern)</div>`)[0];
+            popup_aab47febef21393ccb851d56fc9a9a84.setContent(html_22f37e177b5f618a20fd84d4506e4ad0);
+        
+
+        marker_212a00a69d90aef631705e7799026c60.bindPopup(popup_aab47febef21393ccb851d56fc9a9a84)
+        ;
+
+        
+    
+    
+            var marker_999629a8569db4a1b46e59e4768f05e4 = L.marker(
+                [51.0504, 13.7373],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_53945efb416a521b87cc4dc3f4b78ed1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_484802f352cba7104cf82e604f3f71cc = $(`<div id="html_484802f352cba7104cf82e604f3f71cc" style="width: 100.0%; height: 100.0%;">SAXARCHIV<br>Dresden (Sachsen)</div>`)[0];
+            popup_53945efb416a521b87cc4dc3f4b78ed1.setContent(html_484802f352cba7104cf82e604f3f71cc);
+        
+
+        marker_999629a8569db4a1b46e59e4768f05e4.bindPopup(popup_53945efb416a521b87cc4dc3f4b78ed1)
+        ;
+
+        
+    
+    
+            var marker_3a586e757d9758a2a596b5955ee6c2ef = L.marker(
+                [48.1351, 11.582],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_17012b74b8e99d8213cb1c69e58f00ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68f3bb4c8b169ae8c5962b13d12ad8a2 = $(`<div id="html_68f3bb4c8b169ae8c5962b13d12ad8a2" style="width: 100.0%; height: 100.0%;">Siegelblog<br>München (Bayern)</div>`)[0];
+            popup_17012b74b8e99d8213cb1c69e58f00ac.setContent(html_68f3bb4c8b169ae8c5962b13d12ad8a2);
+        
+
+        marker_3a586e757d9758a2a596b5955ee6c2ef.bindPopup(popup_17012b74b8e99d8213cb1c69e58f00ac)
+        ;
+
+        
+    
+    
+            var marker_d920b55dae68036cea245c9d653fe99a = L.marker(
+                [50.9, 8.1],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_ee0db1f447841bd8ed279750abba81d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41cb9d90bbfed87a31a6265138cc63d2 = $(`<div id="html_41cb9d90bbfed87a31a6265138cc63d2" style="width: 100.0%; height: 100.0%;">siwiarchiv<br>Siegen-Wittgenstein (NRW)</div>`)[0];
+            popup_ee0db1f447841bd8ed279750abba81d1.setContent(html_41cb9d90bbfed87a31a6265138cc63d2);
+        
+
+        marker_d920b55dae68036cea245c9d653fe99a.bindPopup(popup_ee0db1f447841bd8ed279750abba81d1)
+        ;
+
+        
+    
+    
+            var marker_6dffa02d058e4dbd6af806ce1e7e0524 = L.marker(
+                [49.3173, 8.4412],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_2d26f665df6b72542d811b3c428b007f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91fbfd482b49907f7e43c39cb52a4090 = $(`<div id="html_91fbfd482b49907f7e43c39cb52a4090" style="width: 100.0%; height: 100.0%;">Speyer 1945<br>Speyer (Rheinland-Pfalz)</div>`)[0];
+            popup_2d26f665df6b72542d811b3c428b007f.setContent(html_91fbfd482b49907f7e43c39cb52a4090);
+        
+
+        marker_6dffa02d058e4dbd6af806ce1e7e0524.bindPopup(popup_2d26f665df6b72542d811b3c428b007f)
+        ;
+
+        
+    
+    
+            var marker_1c9c9cb4f777298991ffbfb125fdd09c = L.marker(
+                [49.4521, 11.0767],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_da5404a6be3623f4b3eedd8585d895ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e710078e0e267c13dbc0843ca3781d5 = $(`<div id="html_9e710078e0e267c13dbc0843ca3781d5" style="width: 100.0%; height: 100.0%;">Metropolregion Nürnberg Archive<br>Nürnberg (Bayern)</div>`)[0];
+            popup_da5404a6be3623f4b3eedd8585d895ca.setContent(html_9e710078e0e267c13dbc0843ca3781d5);
+        
+
+        marker_1c9c9cb4f777298991ffbfb125fdd09c.bindPopup(popup_da5404a6be3623f4b3eedd8585d895ca)
+        ;
+
+        
+    
+    
+            var marker_c769cd4485d2b5a94d887f889a6d6a69 = L.marker(
+                [48.5816, 10.4922],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_9425ca86b030e7511f3f1e11d4da67d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45d510d0c4b4c59ef8b50cbe75cb72b6 = $(`<div id="html_45d510d0c4b4c59ef8b50cbe75cb72b6" style="width: 100.0%; height: 100.0%;">Stadtarchiv Dillingen<br>Dillingen a.d. Donau (Bayern)</div>`)[0];
+            popup_9425ca86b030e7511f3f1e11d4da67d9.setContent(html_45d510d0c4b4c59ef8b50cbe75cb72b6);
+        
+
+        marker_c769cd4485d2b5a94d887f889a6d6a69.bindPopup(popup_9425ca86b030e7511f3f1e11d4da67d9)
+        ;
+
+        
+    
+    
+            var marker_84090e8228affa0d39daf36d6dbcbf2f = L.marker(
+                [48.1351, 11.582],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_ca381ada0578dd461ced3e1bab62284c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_800bbb35bab586a6dffd5d8f60745fd4 = $(`<div id="html_800bbb35bab586a6dffd5d8f60745fd4" style="width: 100.0%; height: 100.0%;">Stadtarchiv München<br>München (Bayern)</div>`)[0];
+            popup_ca381ada0578dd461ced3e1bab62284c.setContent(html_800bbb35bab586a6dffd5d8f60745fd4);
+        
+
+        marker_84090e8228affa0d39daf36d6dbcbf2f.bindPopup(popup_ca381ada0578dd461ced3e1bab62284c)
+        ;
+
+        
+    
+    
+            var marker_35485e4fc0201ffa7ae3f47f34fc850b = L.marker(
+                [51.1, 6.8],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_1e4528daac749a9d0790e3d5df041a06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77b9ed335a178300fc7559b06631e8ac = $(`<div id="html_77b9ed335a178300fc7559b06631e8ac" style="width: 100.0%; height: 100.0%;">Archivtag Rheinland<br>Rheinland (NRW/RLP)</div>`)[0];
+            popup_1e4528daac749a9d0790e3d5df041a06.setContent(html_77b9ed335a178300fc7559b06631e8ac);
+        
+
+        marker_35485e4fc0201ffa7ae3f47f34fc850b.bindPopup(popup_1e4528daac749a9d0790e3d5df041a06)
+        ;
+
+        
+    
+    
+            var marker_e1d7f754db45627e477135fd71d5e2db = L.marker(
+                [51.1045, 13.2017],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_83fd81bd7189fc728101741e0a8b1aef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61b467e51f41df4450c9ae4bb173ce82 = $(`<div id="html_61b467e51f41df4450c9ae4bb173ce82" style="width: 100.0%; height: 100.0%;">Archivtag Sachsen<br>Sachsen (Sachsen)</div>`)[0];
+            popup_83fd81bd7189fc728101741e0a8b1aef.setContent(html_61b467e51f41df4450c9ae4bb173ce82);
+        
+
+        marker_e1d7f754db45627e477135fd71d5e2db.bindPopup(popup_83fd81bd7189fc728101741e0a8b1aef)
+        ;
+
+        
+    
+    
+            var marker_4d4f362367c3aeaeebb61c851c05128f = L.marker(
+                [48.4011, 9.9876],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_fee10ce14dcaa8c338cbfa778b8d7b09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db31110a50256d63f806cad84872164d = $(`<div id="html_db31110a50256d63f806cad84872164d" style="width: 100.0%; height: 100.0%;">ULMA Ulm<br>Ulm (Baden-Württemberg)</div>`)[0];
+            popup_fee10ce14dcaa8c338cbfa778b8d7b09.setContent(html_db31110a50256d63f806cad84872164d);
+        
+
+        marker_4d4f362367c3aeaeebb61c851c05128f.bindPopup(popup_fee10ce14dcaa8c338cbfa778b8d7b09)
+        ;
+
+        
+    
+    
+            var marker_2f58f06a9f565a696a5a1e74a61a0b0f = L.marker(
+                [52.78, 11.3085],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_34a883aaa5d85b40480d2d01ab535d1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_860e601f8af8731dcf68769cef776f09 = $(`<div id="html_860e601f8af8731dcf68769cef776f09" style="width: 100.0%; height: 100.0%;">Universitäten-Geschichte-Quellen<br>Hamburg/Braunschweig/Berlin (DE)</div>`)[0];
+            popup_34a883aaa5d85b40480d2d01ab535d1d.setContent(html_860e601f8af8731dcf68769cef776f09);
+        
+
+        marker_2f58f06a9f565a696a5a1e74a61a0b0f.bindPopup(popup_34a883aaa5d85b40480d2d01ab535d1d)
+        ;
+
+        
+    
+    
+            var marker_e89c946385d76f4b807cf4ce4f669b0c = L.marker(
+                [51.1657, 10.4515],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_a0fcb403183ed8a77b10557aa42ecd60 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50c08f5b6427e00f96248409a14f7448 = $(`<div id="html_50c08f5b6427e00f96248409a14f7448" style="width: 100.0%; height: 100.0%;">VdA Blog<br>Deutschlandweit (DE)</div>`)[0];
+            popup_a0fcb403183ed8a77b10557aa42ecd60.setContent(html_50c08f5b6427e00f96248409a14f7448);
+        
+
+        marker_e89c946385d76f4b807cf4ce4f669b0c.bindPopup(popup_a0fcb403183ed8a77b10557aa42ecd60)
+        ;
+
+        
+    
+    
+            var marker_a5f6ff5a83ec1dc8f315700e1f62747e = L.marker(
+                [52.52, 13.405],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_29dee274c0f365636f64ee765d600753 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15ac997987b8e33c3264545c67336388 = $(`<div id="html_15ac997987b8e33c3264545c67336388" style="width: 100.0%; height: 100.0%;">Vorwärts-Projekt<br>Berlin (Berlin)</div>`)[0];
+            popup_29dee274c0f365636f64ee765d600753.setContent(html_15ac997987b8e33c3264545c67336388);
+        
+
+        marker_a5f6ff5a83ec1dc8f315700e1f62747e.bindPopup(popup_29dee274c0f365636f64ee765d600753)
+        ;
+
+        
+    
+    
+            var marker_3959ea0c20535b4b9ce6e0e7562623ef = L.marker(
+                [50.9795, 11.3235],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_bd4f73f4ef3217e25b26848ad38f4b3b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9aae3936738e2cbe70d0c11990da0879 = $(`<div id="html_9aae3936738e2cbe70d0c11990da0879" style="width: 100.0%; height: 100.0%;">Weimar – Wege zur Demokratie<br>Weimar (Thüringen)</div>`)[0];
+            popup_bd4f73f4ef3217e25b26848ad38f4b3b.setContent(html_9aae3936738e2cbe70d0c11990da0879);
+        
+
+        marker_3959ea0c20535b4b9ce6e0e7562623ef.bindPopup(popup_bd4f73f4ef3217e25b26848ad38f4b3b)
+        ;
+
+        
+    
+    
+            var marker_ff2fe1d59f879e6dd9fd957f4c3eb7ea = L.marker(
+                [47.4245, 9.3767],
+                {}
+            ).addTo(map_ae8f272ddb093a56b8afb2c28f9df542);
+        
+    
+        var popup_266dca53fd91c065fa1151d14fbd0d47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a037a69522a224abe25ee8e3f5e1a048 = $(`<div id="html_a037a69522a224abe25ee8e3f5e1a048" style="width: 100.0%; height: 100.0%;">Zeitfenster 1916<br>St. Gallen (Schweiz)</div>`)[0];
+            popup_266dca53fd91c065fa1151d14fbd0d47.setContent(html_a037a69522a224abe25ee8e3f5e1a048);
+        
+
+        marker_ff2fe1d59f879e6dd9fd957f4c3eb7ea.bindPopup(popup_266dca53fd91c065fa1151d14fbd0d47)
+        ;
+
+        
+    
+</script>
+</html>
